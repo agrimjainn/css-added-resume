@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(196, 145, 82, 0.288);
+}
+h1,
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+span,
+p {
+  font-family: "Exo 2", sans-serif;
+}
+
+span {
+  font-weight: 900;
+}
+.main {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 3;
+  margin: 20px 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.555);
+
+  padding: 20px;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically*/
+}
+
+.card {
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+.profile-picture {
+  height: auto;
+}
+
+.person-details {
+  background-color: beige;
+}
+
+.about-me {
+  background-color: bisque;
+}
+
+.experience {
+  background-color: rgb(234, 215, 192);
+}
+
+.skills {
+  background-color: bisque;
+}
+.skill-name {
+  width: 30%;
+  background-color: rgb(234, 215, 192);
+  border-radius: 20%;
+  margin: 15px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+}
+
+.skill-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.education {
+  background-color: rgb(234, 215, 192);
+}
